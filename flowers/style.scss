@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    padding: 1.5vw 0 0 1.5vw;
+}
+.picstack {
+    display: inline-block;
+    position: relative;
+    width: 30vw;
+    height: 20vw;
+    margin: 0.5vw;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .cover {
+        display: block;
+    }
+    .undercover {
+        position: absolute;
+        top: 0;
+        transition: 0.42s ease-in-out;
+        &:hover {
+            opacity: 0;
+            transition: 3.14s ease-in-out;
+        }
+    }
+}
