@@ -30,13 +30,14 @@ body {
         color: #c22;
     }
     .cont-page {
-        width: 95%;
+        width: 90%;
         max-width: 1600px;
         background-color: white;
         margin: auto;
         padding-bottom: 64px;
         .cont-content {
             width: 80%;
+            max-width: 1000px;
             margin: auto;
             padding: bottom;
             header {
@@ -49,14 +50,14 @@ body {
                         display: block;
                         content: "";
                         height: 3px;
-                        box-shadow: 0px -2px 2px gray;
+                        box-shadow: 0px -5px 4px gray;
                     }
                     &::after {
                         margin-bottom: 32px;
                         display: block;
                         content: "";
                         height: 3px;
-                        box-shadow: 0px 2px 2px gray;
+                        box-shadow: 0px 5px 4px gray;
                     }
                     img {
                         height: 64px;
@@ -164,6 +165,48 @@ body {
                         margin-right: 16px;
                     }
                 }
+            }
+        }
+    }
+}
+@media screen and (max-width: 800px) {
+    body {
+        .cont-page {
+            width: 100%;
+            .cont-content {
+                width: 90%;
+                main {
+                    .cloth {
+                        grid-template-columns: 1fr 1fr;
+                    }
+                }    
+            }
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+        .cont-page {
+            width: 100%;
+            .cont-content {
+                width: 100%;
+                header {
+                    nav {
+                        .links {
+                            width: 70%;
+                            display: inline;
+                            text-align: right;
+                            a {
+                                display: inline-flex;
+                            }
+                        }
+                    }
+                }
+                main {
+                    .cloth {
+                        grid-template-columns: 1fr;
+                    }
+                }    
             }
         }
     }

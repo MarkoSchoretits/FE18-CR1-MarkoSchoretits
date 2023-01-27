@@ -32,7 +32,7 @@ body a {
   color: #c22;
 }
 body .cont-page {
-  width: 95%;
+  width: 90%;
   max-width: 1600px;
   background-color: white;
   margin: auto;
@@ -40,6 +40,7 @@ body .cont-page {
 }
 body .cont-page .cont-content {
   width: 80%;
+  max-width: 1000px;
   margin: auto;
   padding: bottom;
 }
@@ -55,14 +56,14 @@ body .cont-page .cont-content header nav::before {
   display: block;
   content: "";
   height: 3px;
-  box-shadow: 0px -2px 2px gray;
+  box-shadow: 0px -5px 4px gray;
 }
 body .cont-page .cont-content header nav::after {
   margin-bottom: 32px;
   display: block;
   content: "";
   height: 3px;
-  box-shadow: 0px 2px 2px gray;
+  box-shadow: 0px 5px 4px gray;
 }
 body .cont-page .cont-content header nav img {
   height: 64px;
@@ -166,4 +167,35 @@ body .cont-page .cont-content footer .buttons {
 }
 body .cont-page .cont-content footer #agb-links a {
   margin-right: 16px;
+}
+
+@media screen and (max-width: 800px) {
+  body .cont-page {
+    width: 100%;
+  }
+  body .cont-page .cont-content {
+    width: 90%;
+  }
+  body .cont-page .cont-content main .cloth {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 480px) {
+  body .cont-page {
+    width: 100%;
+  }
+  body .cont-page .cont-content {
+    width: 100%;
+  }
+  body .cont-page .cont-content header nav .links {
+    width: 70%;
+    display: inline;
+    text-align: right;
+  }
+  body .cont-page .cont-content header nav .links a {
+    display: inline-flex;
+  }
+  body .cont-page .cont-content main .cloth {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=style.css.map */
