@@ -23,6 +23,56 @@
 }
 body {
     font-family:"LouisGeorgeCafe";
-    color: #ccc;
     font-size: 18px;
+    background-color: black;
+    position: relative;
+    .container {
+        width: 95%;
+        max-width: 1600px;
+        background-color: white;
+        margin: auto;
+        header {
+            width: 80%;
+            margin: auto;
+            padding-top: 64px;
+            nav {
+                position: relative;
+                width: 100%;
+                &::before {
+                    display: block;
+                    content: "";
+                    height: 3px;
+                    box-shadow: 0px -2px 2px gray;
+                }
+                &::after {
+                    margin-bottom: 32px;
+                    display: block;
+                    content: "";
+                    height: 3px;
+                    box-shadow: 0px 2px 2px gray;
+                }
+                img {
+                    height: 64px;
+                }
+                .links {
+                    width: 83%;
+                    position: absolute;
+                    right: 0px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    display: flex;
+                    justify-content: space-between;
+                    a {
+                        display: flex;
+                    }
+                };
+            };
+            .hero {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
