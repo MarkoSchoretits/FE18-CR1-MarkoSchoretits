@@ -67,10 +67,9 @@ body {
                         a {
                             display: flex;
                         }
-                    };
-                };
+                    }
+                }
                 .hero {
-                    border: 1px solid red;
                     position: relative;
                     width: 100%;
                     height: 32vw;
@@ -82,6 +81,66 @@ body {
                 }
             }
             main {
+                h1 {
+                    font-size: 3rem;
+                }
+                h2 {
+                    font-size: 2rem;
+                    color: gray;
+                    margin-top: 1rem;
+                }
+                p {
+                    margin-top: 2rem;
+                    font-size: 1rem;
+                    color: #333;
+                }
+                .cloth {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    gap: 32px;
+                    justify-content: space-between;
+                    position: relative;
+                    width: 100%;
+                    background-color: #ffc;
+                    margin-top: 64px;
+                    padding: 32px;
+                    box-shadow: 3px 3px 10px gray;
+                    a {
+                        display: inline-block;
+                        .plate {
+                            background-image: url("pics/dishes-938747_1920transp.png");
+                            background-size: cover;
+                            width: 100%;
+                            position: relative;
+                            .plate-y {
+                                padding-top: 100%;
+                                img {
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    width: 62%;
+                                    height: 62%;
+                                    transform: translate(-50%, -50%);
+                                    object-fit: cover;
+                                    border-radius: 50%;
+                                    box-shadow: inset 2px 2px 4px gray;
+                                }
+                                p {
+                                    color: #118;
+                                    display: block;
+                                    width: 100%;
+                                    position: absolute;
+                                    bottom: 10%;
+                                    transform: translateY(50%);
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            footer {
+                margin-top: 200px;
             }
         }
     }
