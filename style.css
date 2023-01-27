@@ -104,6 +104,15 @@ body .cont-page .cont-content main p {
   font-size: 1rem;
   color: #333;
 }
+body .cont-page .cont-content main ul {
+  margin: 1rem 0 3rem;
+  color: #666;
+}
+body .cont-page .cont-content main ul li {
+  font-size: 1rem;
+  list-style: disc;
+  list-style-position: inside;
+}
 body .cont-page .cont-content main .cloth {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -153,6 +162,9 @@ body .cont-page .cont-content footer {
   margin-top: 64px;
   background-color: #eee;
   padding: 16px;
+}
+body .cont-page .cont-content footer #BAChef {
+  border-radius: 50%;
 }
 body .cont-page .cont-content footer .f-logo {
   height: 64px;

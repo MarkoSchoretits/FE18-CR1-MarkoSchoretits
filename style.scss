@@ -100,6 +100,14 @@ body {
                     font-size: 1rem;
                     color: #333;
                 }
+                ul {
+                    margin: 1rem 0 3rem;
+                    color: #666;
+                    li {
+                        font-size: 1rem;
+                        list-style: disc;
+list-style-position: inside ;                    }
+                }
                 .cloth {
                     display: grid;
                     grid-template-columns: 1fr 1fr 1fr;
@@ -149,6 +157,9 @@ body {
                 margin-top: 64px;
                 background-color: #eee;
                 padding: 16px;
+                #BAChef {
+                    border-radius: 50%;
+                }
                 .f-logo {
                     height: 64px;
                     margin-right: 16px;
