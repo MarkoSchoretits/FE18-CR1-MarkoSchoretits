@@ -28,15 +28,20 @@ body {
   background-color: black;
   position: relative;
 }
+body a {
+  color: #c22;
+}
 body .cont-page {
   width: 95%;
   max-width: 1600px;
   background-color: white;
   margin: auto;
+  padding-bottom: 64px;
 }
 body .cont-page .cont-content {
   width: 80%;
   margin: auto;
+  padding: bottom;
 }
 body .cont-page .cont-content header {
   padding-top: 64px;
@@ -105,7 +110,7 @@ body .cont-page .cont-content main .cloth {
   justify-content: space-between;
   position: relative;
   width: 100%;
-  background-color: #ffc;
+  background-color: #ffd;
   margin-top: 64px;
   padding: 32px;
   box-shadow: 3px 3px 10px gray;
@@ -144,5 +149,21 @@ body .cont-page .cont-content main .cloth a .plate .plate-y p {
   text-align: center;
 }
 body .cont-page .cont-content footer {
-  margin-top: 200px;
+  margin-top: 64px;
+  background-color: #eee;
+  padding: 16px;
+}
+body .cont-page .cont-content footer .f-logo {
+  height: 64px;
+  margin-right: 16px;
+}
+body .cont-page .cont-content footer p {
+  margin: 32px 0;
+}
+body .cont-page .cont-content footer .buttons {
+  height: 32px;
+  margin-right: 8px;
+}
+body .cont-page .cont-content footer #agb-links a {
+  margin-right: 16px;
 }/*# sourceMappingURL=style.css.map */

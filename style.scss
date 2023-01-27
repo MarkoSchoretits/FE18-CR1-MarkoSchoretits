@@ -26,14 +26,19 @@ body {
     font-size: 18px;
     background-color: black;
     position: relative;
+    a {
+        color: #c22;
+    }
     .cont-page {
         width: 95%;
         max-width: 1600px;
         background-color: white;
         margin: auto;
+        padding-bottom: 64px;
         .cont-content {
             width: 80%;
             margin: auto;
+            padding: bottom;
             header {
                 padding-top: 64px;
                 margin-bottom: 32px;
@@ -101,7 +106,7 @@ body {
                     justify-content: space-between;
                     position: relative;
                     width: 100%;
-                    background-color: #ffc;
+                    background-color: #ffd;
                     margin-top: 64px;
                     padding: 32px;
                     box-shadow: 3px 3px 10px gray;
@@ -140,7 +145,25 @@ body {
                 }
             }
             footer {
-                margin-top: 200px;
+                margin-top: 64px;
+                background-color: #eee;
+                padding: 16px;
+                .f-logo {
+                    height: 64px;
+                    margin-right: 16px;
+                }
+                p {
+                    margin: 32px 0;
+                }
+                .buttons {
+                    height: 32px;
+                    margin-right: 8px;
+                }
+                #agb-links {
+                    a {
+                        margin-right: 16px;
+                    }
+                }
             }
         }
     }
