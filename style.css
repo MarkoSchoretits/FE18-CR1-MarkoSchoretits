@@ -6,6 +6,31 @@
   box-sizing: border-box;
 }
 
+/*
+TO DO:
+    TROUBLESHOOT:
+        - Investigate: Nesting occassionally lead to <p> or <ul> inheriting style (eg color) from <h2>
+        - soft scroll doesn't work (tried in <html> <body> and <a>) (Does it need buttons?, is nesting the problem?)
+
+    SYSTEMIZE:
+        - Externalize Resets
+        - Externalize Fonts (Make client specific font-groups)
+        - Externalize Standard Settings (Per client/priject)
+        - Uniform and standardize and externalize color, especially grayscales 
+        - Standardize Shadows (Also check for overuse of these.!)
+        - Make repo files for standard solutions:
+            - pic over pic, like in flowers.html
+            - plates: with bg-pic like applied
+            - plates: investigate: with pic in div
+            - plates: with divs only (ie set heigth relative to width: does it really need an img or text as content?)
+            - shadows from pseudo elements: how wide?, z-index?
+    NICE TO HAVE:
+        - Check for margins etc: substitute px for rem
+        - Add responsitivity to flowers.html
+        - Center pics in flowers.html
+        - Find equilibrium for nesting/!nesting (normal form philosophy)
+        - Apply general Documentation to all files
+*/
 @font-face {
   font-family: "LouisGeorgeCafe";
   src: url("fonts/Louis George Cafe.ttf");
@@ -56,14 +81,14 @@ body .cont-page .cont-content header nav::before {
   display: block;
   content: "";
   height: 3px;
-  box-shadow: 0px -5px 4px gray;
+  box-shadow: 0px -3px 3px gray;
 }
 body .cont-page .cont-content header nav::after {
   margin-bottom: 32px;
   display: block;
   content: "";
   height: 3px;
-  box-shadow: 0px 5px 4px gray;
+  box-shadow: 0px 3px 3px gray;
 }
 body .cont-page .cont-content header nav img {
   height: 64px;
@@ -162,6 +187,7 @@ body .cont-page .cont-content footer {
   margin-top: 64px;
   background-color: #eee;
   padding: 16px;
+  box-shadow: inset 3px 3px 6px gray;
 }
 body .cont-page .cont-content footer #BAChef {
   border-radius: 50%;
