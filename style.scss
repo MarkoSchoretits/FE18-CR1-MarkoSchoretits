@@ -1,3 +1,4 @@
+/*RESET BROWSER SETTINGS*/
 * {
     margin: 0;
     padding: 0;
@@ -33,6 +34,7 @@ TO DO:
         - Apply general Documentation to all files
 */
 
+/*FONTS*/
 @font-face{
     font-family:"LouisGeorgeCafe";
     src:url("fonts/Louis\ George\ Cafe.ttf")
@@ -49,6 +51,8 @@ TO DO:
     font-family:"TinDoghouse";
     src:url("fonts/TinDog.ttf")
 }
+
+/*--BODY START--*/
 body {
     font-family:"LouisGeorgeCafe";
     font-size: 18px;
@@ -68,6 +72,8 @@ body {
             max-width: 1000px;
             margin: auto;
             padding: bottom;
+
+            /*--HEADER START--*/
             header {
                 padding-top: 64px;
                 margin-bottom: 32px;
@@ -114,6 +120,9 @@ body {
                     }
                 }
             }
+            /*--HEADER END--*/
+
+            /*--MAIN START--*/
             main {
                 h1 {
                     font-size: 3rem;
@@ -182,6 +191,9 @@ body {
                     }
                 }
             }
+            /*--MAIN END--*/
+
+            /*--FOOTER START--*/
             footer {
                 margin-top: 64px;
                 background-color: #eee;
@@ -207,9 +219,14 @@ body {
                     }
                 }
             }
+            /*--FOOTER END--*/
+
         }
     }
 }
+/*--BODY END--*/
+
+/*--TABLET SETTINGS--*/
 @media screen and (max-width: 800px) {
     body {
         .cont-page {
@@ -225,6 +242,8 @@ body {
         }
     }
 }
+
+/*--MOBILE SETTINGS--*/
 @media screen and (max-width: 480px) {
     body {
         .cont-page {
