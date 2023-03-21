@@ -1,4 +1,4 @@
-/*RESET BROWSER SETTINGS*/
+// Reset Browser Settings //
 * {
     margin: 0;
     padding: 0;
@@ -34,7 +34,7 @@ TO DO:
         - Apply general Documentation to all files
 */
 
-/*FONTS*/
+// Fonts //
 @font-face{
     font-family:"LouisGeorgeCafe";
     src:url("fonts/Louis\ George\ Cafe.ttf")
@@ -52,7 +52,7 @@ TO DO:
     src:url("fonts/TinDog.ttf")
 }
 
-/*--BODY START--*/
+// BODY //
 body {
     font-family:"LouisGeorgeCafe";
     font-size: 18px;
@@ -73,10 +73,12 @@ body {
             margin: auto;
             padding: bottom;
 
-            /*--HEADER START--*/
+            // HEADER //
             header {
                 padding-top: 64px;
                 margin-bottom: 32px;
+
+                // NAV //
                 nav {
                     position: relative;
                     width: 100%;
@@ -109,6 +111,9 @@ body {
                         }
                     }
                 }
+                // -nav //
+
+                // HERO //
                 .hero {
                     position: relative;
                     width: 100%;
@@ -119,10 +124,12 @@ body {
                         object-fit: cover;
                     }
                 }
-            }
-            /*--HEADER END--*/
+                // -hero //
 
-            /*--MAIN START--*/
+            }
+            // -header //
+
+            // MAIN //
             main {
                 h1 {
                     font-size: 3rem;
@@ -191,9 +198,9 @@ body {
                     }
                 }
             }
-            /*--MAIN END--*/
+            // -main //
 
-            /*--FOOTER START--*/
+            // FOOTER //
             footer {
                 margin-top: 64px;
                 background-color: #eee;
@@ -219,14 +226,14 @@ body {
                     }
                 }
             }
-            /*--FOOTER END--*/
+            // -footer //
 
         }
     }
 }
-/*--BODY END--*/
+// -body //
 
-/*--TABLET SETTINGS--*/
+// Tablet Settings //
 @media screen and (max-width: 800px) {
     body {
         .cont-page {
@@ -243,7 +250,7 @@ body {
     }
 }
 
-/*--MOBILE SETTINGS--*/
+// Mobile Settings //
 @media screen and (max-width: 480px) {
     body {
         .cont-page {

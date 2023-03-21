@@ -1,19 +1,14 @@
-/*--GENERAL SETTINGS--*/
 body {
   background-color: black;
   padding: 1.5vw 0 0 1.5vw;
 }
 
-/*--PICTURE OVER PICTURE--*/
 .picstack {
   display: inline-block;
   position: relative;
   width: 30vw;
   height: 20vw;
   margin: 0.5vw;
-  /*--general picture settings--*/
-  /*--settings for the hidden picture--*/
-  /*--Settings for the covering picture--*/
 }
 .picstack img {
   width: 100%;

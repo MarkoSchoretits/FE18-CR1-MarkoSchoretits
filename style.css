@@ -1,4 +1,3 @@
-/*RESET BROWSER SETTINGS*/
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +32,6 @@ TO DO:
             - idea: root at least semantic containers
         - Apply general Documentation to all files
 */
-/*FONTS*/
 @font-face {
   font-family: "LouisGeorgeCafe";
   src: url("fonts/Louis George Cafe.ttf");
@@ -50,7 +48,6 @@ TO DO:
   font-family: "TinDoghouse";
   src: url("fonts/TinDog.ttf");
 }
-/*--BODY START--*/
 body {
   font-family: "LouisGeorgeCafe";
   font-size: 18px;
@@ -72,12 +69,6 @@ body .cont-page .cont-content {
   max-width: 1000px;
   margin: auto;
   padding: bottom;
-  /*--HEADER START--*/
-  /*--HEADER END--*/
-  /*--MAIN START--*/
-  /*--MAIN END--*/
-  /*--FOOTER START--*/
-  /*--FOOTER END--*/
 }
 body .cont-page .cont-content header {
   padding-top: 64px;
@@ -217,8 +208,6 @@ body .cont-page .cont-content footer #agb-links a {
   margin-right: 16px;
 }
 
-/*--BODY END--*/
-/*--TABLET SETTINGS--*/
 @media screen and (max-width: 800px) {
   body .cont-page {
     width: 100%;
@@ -230,7 +219,6 @@ body .cont-page .cont-content footer #agb-links a {
     grid-template-columns: 1fr 1fr;
   }
 }
-/*--MOBILE SETTINGS--*/
 @media screen and (max-width: 480px) {
   body .cont-page {
     width: 100%;

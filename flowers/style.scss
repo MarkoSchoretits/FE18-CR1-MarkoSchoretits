@@ -1,10 +1,10 @@
-/*--GENERAL SETTINGS--*/
+// General Settings //
 body {
     background-color: black;
     padding: 1.5vw 0 0 1.5vw;
 }
 
-/*--PICTURE OVER PICTURE--*/
+// Picture Over Picture //
 .picstack {
     display: inline-block;
     position: relative;
@@ -12,19 +12,19 @@ body {
     height: 20vw;
     margin: 0.5vw;
     
-    /*--general picture settings--*/
+    // General Picture Settings //
     img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    /*--settings for the hidden picture--*/
+    // Settings For The Hidden Picture //
     .undercover {
         display: block;
     }
 
-    /*--Settings for the covering picture--*/
+    // Settings For The Covering Picture //
     .cover {
         position: absolute;
         top: 0;
